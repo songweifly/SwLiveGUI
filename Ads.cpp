@@ -402,7 +402,7 @@ HRESULT CreateUserFromADs(LPCWSTR pwszContainerDN,
 
 
 	LPWSTR szUsername = ConvertCharToLPWSTR("administrator"); // user name  
-	LPWSTR szPassword = ConvertCharToLPWSTR("Swn123321"); // password  
+	LPWSTR szPassword = ConvertCharToLPWSTR("123321"); // password  
 
     // Bind to the container.
     //hr = ADsGetObject(sbstrADsPath, IID_IADsContainer, (LPVOID*)&pUsers);
